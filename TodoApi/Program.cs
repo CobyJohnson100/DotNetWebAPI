@@ -25,6 +25,7 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+// API endpoints
 app.MapGet("/todoitems", async (TodoDb db) =>
     await db.Todos.ToListAsync());
 
