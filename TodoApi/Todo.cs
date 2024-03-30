@@ -1,4 +1,5 @@
 // TodoAPI/Todo.cs
+// defining data structure
 public class Todo
 {
     public int Id { get; set; }
