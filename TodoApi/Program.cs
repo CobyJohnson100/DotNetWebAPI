@@ -1,9 +1,8 @@
 // TodoApi/Program.cs
-using Microsoft.EntityFrameworkCore;
-using NSwag.AspNetCore;
+using Microsoft.EntityFrameworkCore; // imports EF Core namespace that adds database context and LINQ queries functionalities
 
-var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList"));
+var builder = WebApplication.CreateBuilder(args); // initializes WebApplicationBuilder which provides methods and properties for configuration
+builder.Services.AddDbContext<TodoDb>(opt => opt.UseInMemoryDatabase("TodoList")); // registers TodoDb context as service in app's dependancy injection container
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddOpenApiDocument(config =>
@@ -13,6 +12,7 @@ builder.Services.AddOpenApiDocument(config =>
     config.Version = "v1";
 });
 var app = builder.Build();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseOpenApi();

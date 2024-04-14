@@ -1,10 +1,22 @@
 # Microsoft .NET Learn Todo Tutorial on Creating a Minimal Web API
 Following this tutorial link: [Creating Minimal API without use of Controllers](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-8.0&tabs=visual-studio-code)
 
+## Current .NET SDK
+Get the .NET SDK 8.0 (latest LTS as of 3/28/24)
+Can check if you have the .NET SDK by version CLI command:
+```
+dotnet --version
+8.0.103
+```
+
+If you don’t have it, then run the command:
+`sudo apt-get install dotnet-sdk-8.0`
+
+## Create Minimal Web API ASP.NET Core Project
 Minimal APIs are architected to create HTTP APIs with minimal dependencies. This means eliminating the need for certain conventions and structures such as explicit definition of controllers in Model-View-Controller architecture. Can simply define endpoints directly in the program's entry point.
 
-Create the project:
-`dotnet new web -o TodoApi`
+Create the new web minimal API project with CLI command:
+`dotnet new web -o [name of web minimal API project directory]`
 
 This will make a WebApplicationBuilder and WebApplication
  - WebApplicationBuilder: Builder class that provides a streamlined and flexible way to configure and set up a web application. It offers a consolidated approach for defining settings, services, and middleware through a fluent API.
