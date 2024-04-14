@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/opt/MinimalWebAPIDotNet/TodoApi/TodoApi.csproj": {}
+    "/opt/DotNetWebAPI/TodoApi/TodoApi.csproj": {}
   },
   "projects": {
-    "/opt/MinimalWebAPIDotNet/TodoApi/TodoApi.csproj": {
+    "/opt/DotNetWebAPI/TodoApi/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/opt/MinimalWebAPIDotNet/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/opt/DotNetWebAPI/TodoApi/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/opt/MinimalWebAPIDotNet/TodoApi/TodoApi.csproj",
+        "projectPath": "/opt/DotNetWebAPI/TodoApi/TodoApi.csproj",
         "packagesPath": "/home/coby/.nuget/packages/",
-        "outputPath": "/opt/MinimalWebAPIDotNet/TodoApi/obj/",
+        "outputPath": "/opt/DotNetWebAPI/TodoApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/coby/.nuget/NuGet/NuGet.Config"

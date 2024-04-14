@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K6OREspltDbNkXe7zuNFzSpOG98/LCztkoKaon2IH2H+wcLSoTSKF3iGtiSRFgRxyC06WmqDZ6ClwuNpHEHcSw==",
+  "dgSpecHash": "P5D5/NPixczkWRQ4fsRyIwifa9CiLGo8KqyjbzBj8mPj1AE1k9vJwp04e3uBA0QiTOpWyTMpQVMMG8KmMSEETQ==",
   "success": true,
-  "projectFilePath": "/opt/MinimalWebAPIDotNet/TodoApi/TodoApi.csproj",
+  "projectFilePath": "/opt/DotNetWebAPI/TodoApi/TodoApi.csproj",
   "expectedPackageFiles": [
     "/home/coby/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.3/microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.3.nupkg.sha512",
     "/home/coby/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
